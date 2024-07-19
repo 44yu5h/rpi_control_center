@@ -11,7 +11,6 @@ import rp_tests.rp_list as rp_list
 from utils import Window, load_css
 
 
-
 def gui():
     get_settings()
 

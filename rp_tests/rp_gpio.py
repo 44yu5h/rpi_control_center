@@ -24,7 +24,6 @@ def gui():
     gpioBottomRow.set_halign(Gtk.Align.CENTER)
     gpioTopRow.set_halign(Gtk.Align.CENTER)
 
-
     # load css
     css = b"""
     button.5v, button.5v:checked, button.5v:active,
