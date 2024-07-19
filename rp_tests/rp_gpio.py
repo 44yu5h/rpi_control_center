@@ -9,7 +9,7 @@ import digitalio
 import board
 
 import rp_tests.rp_list as rp_list
-from utils import Window, load_css
+from rp_tests.utils import Window, load_css
 
 
 def gui():
