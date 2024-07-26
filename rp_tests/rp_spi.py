@@ -3,10 +3,9 @@ import gi
 gi.require_version("Gtk", "3.0")
 from gi.repository import Gtk
 
-# from gettext import gettext as _
-# from time import sleep
-
 from rp_tests.utils import Window
+
+# TODO - Implement the SPI class
 
 
 class RP_SPI:

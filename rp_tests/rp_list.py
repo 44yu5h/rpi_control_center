@@ -11,12 +11,12 @@ names = [
 ]
 
 tooltips = {
-    'gpio': _('GPIO'),
-    'i2c': _('I2C'),
-    'spi': _('SPI'),
-    'cam': _('Camera'),
-    'audio': _('Audio'),
-    'settings': _('Settings'),
+    'RP_GPIO': _('GPIO'),
+    'RP_I2C': _('I2C'),
+    'RP_SPI': _('SPI'),
+    'RP_CAM': _('Camera'),
+    'RP_AUDIO': _('Audio'),
+    'RP_SETTINGS': _('Settings'),
 }
 
 gpio = [
@@ -56,8 +56,8 @@ settings = {
     'vnc': _('VNC Server'),
     'ssh': _('SSH Server'),
     'autologin': _('Autologin'),
-    'cli': _('Boot into CLI'),
-    'gui': _('Boot into GUI'),
+    'boot_splash': _('Boot Splash Screen'),
+    'boot_cli': _('Boot into CLI'),
 }
 
 settings_status = {
@@ -68,8 +68,8 @@ settings_status = {
     'vnc': 1,
     'ssh': 1,
     'autologin': 0,
-    'cli': 0,
-    'gui': 1,
+    'boot_splash': 1,
+    'boot_cli': 0,
 }
 
 # advanced_settings_jumbo = {
